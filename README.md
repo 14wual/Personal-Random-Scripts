@@ -28,4 +28,4 @@ Además, la aplicación cuenta con un número de rondas indefinido y un marcador
 <h3>Proximamente se irá agregando más ejercicios</h3>
 
 <h2>Algunas Capturas</h2>
-![TemporizadorBarraProgreso](https://user-images.githubusercontent.com/105047274/198873454-819ec608-c3f5-46b4-a0e7-06047619bee7.png)
+<img src="https://user-images.githubusercontent.com/105047274/198873454-819ec608-c3f5-46b4-a0e7-06047619bee7.png">
