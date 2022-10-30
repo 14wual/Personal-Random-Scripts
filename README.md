@@ -29,3 +29,10 @@ Además, la aplicación cuenta con un número de rondas indefinido y un marcador
 
 <h2>Algunas Capturas</h2>
 <img src="https://user-images.githubusercontent.com/105047274/198873454-819ec608-c3f5-46b4-a0e7-06047619bee7.png">
+
+<h3>🚀 Conoceme </h3>
+
+https://www.linkedin.com/in/cpadilla10/ <br>
+https://twitter.com/codewual <br>
+https://www.youtube.com/channel/UC0B3mTwPPdKPEwLerauEtdg <br>
+</div>
