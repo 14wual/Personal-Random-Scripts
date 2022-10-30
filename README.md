@@ -22,5 +22,5 @@ un <i>for</i> se encarga de elegir de manera aleatoría los carácteres según l
 Este juego de "Piedra, Papel o Tijera" cuenta con <b>random</b> y <b>time</b>. <br>
 Es un programa donde el código juega con la entrada por teclado del juegador donde elige que elemento desea elegir, el ordenador aleatoriamente <br>
 hace lo mismo, y el  juego procesa y compara las elecciones para posteriormente contar quién fue el ganador. <br>
-Además, la aplicación cuenta con un número de rondas indefinido y un marcador.
+Además, la aplicación cuenta con un número de rondas indefinido y un marcador. <br>
 <a href='/Ejercicios/TemporizadorCuentaRegresiva.py'>Código</a>
