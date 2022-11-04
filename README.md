@@ -20,9 +20,9 @@ un <i>for</i> se encarga de elegir de manera aleatoría los carácteres según l
 <h2>Validador de Contraseñas</h2>
 <b>¿Cómo Funciona?</b> <br>
 Este "Validador de Contraseñas" cuenta con <b>random</b>. <br>
-Partimos de un input donde escribes tu contraseñas, el código hace uso de los métodos islower(), isupper() e isdigit(). AL pasar por el algortimo <br>
+Partimos de un input donde escribes tu contraseñas, el código hace uso de los <i> métodos islower(), isupper() e isdigit()</i>. AL pasar por el algortimo <br>
 este va comprobando los tipos de carácteres que tiene su contraseñas y si no cumple con los requisitos (mayúsculas, minúsculas, números y carácteres especiales) <br>
-se le genera una nueva.
+se le genera una nueva. <br>
 <a href='/Ejercicios/ValidarContraseñas.py'>Código</a>
 
 
