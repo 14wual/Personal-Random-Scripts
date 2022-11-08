@@ -73,7 +73,7 @@ def api(gender):
   #This for will allow us to show all the results one by one
   for x in myresult:
     #Show the title
-    print(x)
+    print(x[0])
 
     #We will use this variable in the future to check if the author is still in the list
     author = x[1]
