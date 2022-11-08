@@ -1,38 +1,43 @@
-# EjerciciosPython
-Ejercicios de Python: Temporizador con Barra de Progreso; Piedra. Papel, Tijera; Generador de Contraseñas; ...
+# My Personal Scripts/Algorithms
+Scripts fully programmed in python. Each script has its own instructions for use.
 
-<h2>Temporizador con Barra Progresiva</h2>
-<b>¿Cómo Funciona?</b> <br>
-Este "Temporizador con Barra Progresiva" cuenta con <b>tqdm</b> y <b>time</b>. <br>
-Introducimos por terminal el número de segundos, minutos y horas y esta la convierte automáticamente a segundos <br>
-Ya con estos datos convertidos, trabajamos con un <i>for</i> que se encarga de dibujar el <i>output</i> por terminal y llevar a cabo <br>
-la cuenta atrás. <br>
-<a href='/Ejercicios/TemporizadorCuentaRegresiva.py'>Código</a>
+ ██╗    ██╗██╗   ██╗ █████╗ ██╗     <br>
+ ██║    ██║██║   ██║██╔══██╗██║     <br>
+ ██║ █╗ ██║██║   ██║███████║██║     (code by wual)<br>
+ ██║███╗██║██║   ██║██╔══██║██║     <br>
+ ╚███╔███╔╝╚██████╔╝██║  ██║███████╗<br>
+  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝<br>
 
-<h2>Generador de Contraseñas</h2>
-<b>¿Cómo Funciona?</b> <br>
-Este "Generador de Contraseñas" cuenta con <b>random</b>. <br>
-Partimos de 4 strings que contienen los siguientes carácteres <i>(letras minúsculas, letras mayúsculas, números y carácteres especiales)</i> <br>
-El usuario, <i>introduce la longitud y dificultad</i> la contraseña donde el programa segun su respuesta une los diferentes string y con esa base <br>
-un <i>for</i> se encarga de elegir de manera aleatoría los carácteres según la dificultad y la longitud antes configurados. <br>
-<a href='/Ejercicios/GeneradorContraseñas.py'>Código</a>
+<h2>Book recommendation algorithm</h2>
+<b>How does it work?</b> <br>
+This "Book recommendation algorithm" features <b>mysql.connector</b>, <b>mysql.connector</b>, <b>random</b> and <b>time</b>. <br>
+<b>What's this?</b> - 
+This is a book recommendation algorithm, where the algorithm recommends titles based on your votes.<br>
+<a href='/Scripts/BookRecommendation.py'>Code</a>
 
-<h2>Validador de Contraseñas</h2>
-<b>¿Cómo Funciona?</b> <br>
-Este "Validador de Contraseñas" cuenta con <b>random</b>. <br>
-Partimos de un input donde escribes tu contraseñas, el código hace uso de los <i> métodos islower(), isupper() e isdigit()</i>. AL pasar por el algortimo <br>
-este va comprobando los tipos de carácteres que tiene su contraseñas y si no cumple con los requisitos (mayúsculas, minúsculas, números y carácteres especiales) <br>
-se le genera una nueva. <br>
-<a href='/Ejercicios/ValidarContraseñas.py'>Código</a>
+<h2>Progressive Bar Timer</h2>
+<b>How does it work?</b> <br>
+This "Timer with Progressive Bar" has <b>tqdm</b> y <b>time</b>. <br>
+<b>What's this?</b> - 
+In this program we introduce a time and the program will create a progressive bar with a countdown <br>
+<a href='/Scripts/TimerCountdown.py>Code</a>
+
+<h2>Password Generator</h2>
+<b>How does it work?</b> <br>
+This "Password Generator" features <b>random</b>. <br>
+<b>What's this?</b>
+<a href='/Scripts/PasswordGenerator.py'>Code</a>
+
+<h2>Password Validator</h2>
+<b>How does it work?</b> <br>
+This "Password Validator" can work with <b>random</b>. <br>
+We start from an input where you write your passwords, the code makes use of the <i> methods islower(), isupper() and isdigit()</i>. When going through the algorithm This checks the types of characters that your passwords have and if they do not meet the requirements (uppercase, lowercase, numbers and special characters)
+a new one is generated. <br>
+<a href='/Scripts/PasswordValidator.py'>Code</a>
 
 
-<h2>Piedra Papel & Tijera</h2>
-<b>¿Cómo Funciona?</b> <br>
-Este juego de "Piedra, Papel o Tijera" cuenta con <b>random</b> y <b>time</b>. <br>
-Es un programa donde el código juega con la entrada por teclado del juegador donde elige que elemento desea elegir, el ordenador aleatoriamente <br>
-hace lo mismo, y el  juego procesa y compara las elecciones para posteriormente contar quién fue el ganador. <br>
-Además, la aplicación cuenta con un número de rondas indefinido y un marcador. <br>
-<a href='/Ejercicios/PiedraPapelTijera.py'>Código</a>
+<h2>Other Scripts</h2>
+<b>Rock Paper Scissors Game<b> - <a href='/Scripts/RockPaperScissors.py'>Code</a>
 
 <h3>Proximamente se irá agregando más ejercicios</h3>
 
