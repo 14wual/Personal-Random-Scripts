@@ -29,7 +29,10 @@ In this program we introduce a time and the program will create a progressive ba
 <h2>Password Generator</h2>
 <b>How does it work?</b> <br>
 This "Password Generator" features <b>random</b>. <br>
-<b>What's this?</b> - <br>
+<b>What's this?</b> -
+We start with 4 strings that contain the following characters <i>(lowercase letters, uppercase letters, numbers and special characters)</i>
+The user, <i>enters the length and difficulty</i> of the password where the program, according to its response, joins the different strings and with that base
+a <i>for</i> is responsible for randomly choosing the characters according to the previously configured difficulty and length to create a secure password.<br>
 <a href="/Scripts/PasswordGenerator.py">Code</a>
 
 <h2>Password Validator</h2>
@@ -41,8 +44,11 @@ This checks the types of characters that your passwords have and if they do not 
 is generated. <br>
 <a href='/Scripts/PasswordValidator.py'>Code</a>
 
-<h2>Code Examples</h2>
+<h2>Other Scripts</h2>
+<b>Rock Paper Scissors Game<b> - <a href='/Scripts/RockPaperScissors.py'>Code</a>
+More exercises will be added soon
 
+<h2>Code Examples</h2>
 
 ```
 if vote == "-":
