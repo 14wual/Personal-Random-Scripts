@@ -20,7 +20,7 @@ import random
 #This series of lists (lowercase, Capitalletters, numbers, specialcharacters) define the characters that will 
 #later be used to generate your password
 lowercase = "abcdefghijklmnñopqrstuvwxyz"
-Capitalletters = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+capitalletters = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
 numbers = "0123456789"
 specialcharacters = "ºª!|·#$%&¬/()=?¿¡.:-_,;*{,}ç^[+]"
 
