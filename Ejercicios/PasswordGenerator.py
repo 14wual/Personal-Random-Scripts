@@ -34,7 +34,7 @@ global lists
 #Function where we customize the password
 def personalization():
     global lowercase
-    global Capitalletters
+    global capitalletters
     global numbers
     global specialcharacters
     global lists
@@ -71,11 +71,11 @@ def personalization():
 
     #This conditional structure will create a list with the characters that we will use in the pass
     if security_level == 1:
-        lists = Capitalletters+lowercase
+        lists = capitalletters+lowercase
     elif security_level == 2:
-        lists = Capitalletters+lowercase+numbers
+        lists = capitalletters+lowercase+numbers
     elif security_level == 3:
-        lists = Capitalletters+lowercase+numbers+specialcharacters
+        lists = capitalletters+lowercase+numbers+specialcharacters
 
 #This function is responsible for generating the password
 def GeneratePassword():
