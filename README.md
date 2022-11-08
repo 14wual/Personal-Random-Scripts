@@ -29,7 +29,7 @@ In this program we introduce a time and the program will create a progressive ba
 <h2>Password Generator</h2>
 <b>How does it work?</b> <br>
 This "Password Generator" features <b>random</b>. <br>
-<b>What's this?</b> - 
+<b>What's this?</b> - <br>
 <a href="/Scripts/PasswordGenerator.py">Code</a>
 
 <h2>Password Validator</h2>
@@ -41,3 +41,24 @@ This checks the types of characters that your passwords have and if they do not 
 is generated. <br>
 <a href='/Scripts/PasswordValidator.py'>Code</a>
 
+<h2>Code Examples</h2>
+```
+if vote == "-":
+    for y in myresult:
+        if author in myresult[1]:
+            myresult.remove(y)
+elif vote == "+":
+    upvote += 1
+        if upvote == 3:
+            print("Congratulations!\nYou have found your gender: %s" % gender)
+            exit()
+```
+
+<h2>Some Captures</h2>
+<img src="https://user-images.githubusercontent.com/105047274/198873454-819ec608-c3f5-46b4-a0e7-06047619bee7.png">
+
+<h3>🚀 Know me </h3>
+
+<b>Linkeding</b> - https://www.linkedin.com/in/cpadilla10/ <br>
+<b>Twitter</b> - https://twitter.com/codewual <br>
+<b>YouTube</b> - https://www.youtube.com/channel/UC0B3mTwPPdKPEwLerauEtdg <br>
