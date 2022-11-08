@@ -42,6 +42,8 @@ is generated. <br>
 <a href='/Scripts/PasswordValidator.py'>Code</a>
 
 <h2>Code Examples</h2>
+
+
 ```
 if vote == "-":
     for y in myresult:
@@ -52,6 +54,19 @@ elif vote == "+":
         if upvote == 3:
             print("Congratulations!\nYou have found your gender: %s" % gender)
             exit()
+```
+```
+for s in range(longitud):
+    a = random.choice(str(lista))
+    contraseña += a
+```
+```
+print("Timer will start on:")
+    temp = 3
+    for i in range(temp):
+        temp -=1
+        print(temp,end='\r')
+        sleep(1)
 ```
 
 <h2>Some Captures</h2>
