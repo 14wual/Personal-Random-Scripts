@@ -1,71 +1,97 @@
-#Generador de contraseñas
+# ██╗    ██╗██╗   ██╗ █████╗ ██╗     
+# ██║    ██║██║   ██║██╔══██╗██║     
+# ██║ █╗ ██║██║   ██║███████║██║     (code by wual)
+# ██║███╗██║██║   ██║██╔══██║██║     
+# ╚███╔███╔╝╚██████╔╝██║  ██║███████╗
+#  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+#What's this?
+#This script generates a strong and personalized password
+
+
+#Requirements: 
+    #Install the requirements (at the terminal) to run this program
+        #pip install random
+
+#Enjoyment!
 
 import random
 
+#This series of lists (lowercase, Capitalletters, numbers, specialcharacters) define the characters that will 
+#later be used to generate your password
+lowercase = "abcdefghijklmnñopqrstuvwxyz"
+Capitalletters = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+numbers = "0123456789"
+specialcharacters = "ºª!|·#$%&¬/()=?¿¡.:-_,;*{,}ç^[+]"
 
-minusculas = "abcdefghijklmnñopqrstuvwxyz"
-mayúsculas = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
-numeros = "0123456789"
-carácteres = "ºª!|·#$%&¬/()=?¿¡.:-_,;*{,}ç^[+]"
+    #These variables will be configured later
+#This variable measures the length of the password
+length = 0
+#This variable configures the security level of your password
+security_level = 0
+global lists
 
-longitud = 0
-nivel_seguridad = 0
-nivel_elegido = 0
-global lista
+#Function where we customize the password
+def personalization():
+    global lowercase
+    global Capitalletters
+    global numbers
+    global specialcharacters
+    global lists
 
-def personalización():
-    global minusculas
-    global mayúsculas
-    global numeros
-    global carácteres
-    global lista
+    global length
 
-    global longitud
+    global security_level
 
-    global nivel_seguridad
-    global nivel_elegido
+    #We specify to the user what we are going to do
+    print("Now you will be asked a series of questions about how you want your password (length and security level)")
 
+    #At this time we ask what will be the length of the password
+    length = int(input("PASSWORD length: "))
 
-    print("Ahora se le hará una serie de preguntas de cómo quiere su contraseña")
+    #The password will have a maximum of 20 characters
+    if length > 20:
+        print("The maximum number of characters is 20")
+        length = int(input("PASSWORD length: "))
+    #The password will have a minimum of 8 characters
+    elif length < 8:
+        print("The minimum number of characters is 8")
+        length = int(input("PASSWORD length: "))
 
+    #Here we ask the user what level of security he wants for his password
+    security_level = int(input("Choose a number from 1 to 3 depending on the security level of your password: "))
+
+    #This conditional structure will validate the previous answer
+    if security_level >= 4:
+        print("Eliga entre estas opciones: \n    Level 1. Uppercase and Lowercase\n    Level 2. Previous + Numbers \n    Level 3. Previous + Characters")
+        security_level = int(input("Choose a number from 1 to 3 depending on the security level of your password:"))
+    elif security_level <= 0:
+        print("Eliga entre estas opciones: \n    Level 1. Uppercase and Lowercase\n    Level 2. Previous + Numbers \n    Level 3. Previous + Characters")
+        security_level = int(input("Choose a number from 1 to 3 depending on the security level of your password:"))
+
+    #This conditional structure will create a list with the characters that we will use in the pass
+    if security_level == 1:
+        lists = Capitalletters+lowercase
+    elif security_level == 2:
+        lists = Capitalletters+lowercase+numbers
+    elif security_level == 3:
+        lists = Capitalletters+lowercase+numbers+specialcharacters
+
+#This function is responsible for generating the password
+def GeneratePassword():
+    global lists
+    global length
+
+    password = ""
+
+    #This for loops through the range you predefined above. For each cycle, it randomly chooses a character 
+    #from the previously created list to generate our password
+    for x in range(length):
+        a = random.choice(str(lists))
+        password += a
     
-    longitud = int(input("Longitud de la CONTRASEÑA: "))
-
-    if longitud > 20:
-        print("El máximo de caráceres es de 20")
-        longitud = int(input("Longitud de la CONTRASEÑA: "))
-    elif longitud <= 0:
-        print("El máximo de caráceres es de 20")
-        longitud = int(input("Longitud de la CONTRASEÑA: "))
-
-    nivel_seguridad = int(input("Eliga un número del 1 al 3 dependiendo del nivel de seguridad de su contraseña: "))
-
-    if nivel_seguridad >= 4:
-        print("Eliga entre estas opciones: \n    Nivel 1. Mayúsculas y Minúsculas\n    Nivel 2. Anterior + Números \n    Nivel 3. Anterior + Carácteres")
-        nivel_seguridad = int(input("Eliga un número del 1 al 3 dependiendo del nivel de seguridad de su contraseña: "))
-    elif nivel_seguridad <= 0:
-        print("Eliga entre estas opciones: \n    Nivel 1. Mayúsculas y Minúsculas\n    Nivel 2. Anterior + Números \n    Nivel 3. Anterior + Carácteres")
-        nivel_seguridad = int(input("Eliga un número del 1 al 3 dependiendo del nivel de seguridad de su contraseña: "))
-
-    if nivel_seguridad == 1:
-        lista = mayúsculas+minusculas
-    elif nivel_seguridad == 2:
-        lista = mayúsculas+minusculas+numeros
-    elif nivel_seguridad == 3:
-        lista = mayúsculas+minusculas+numeros+carácteres
-
-def generar_password():
-    global lista
-    global longitud
-
-    contraseña = ""
-
-    for s in range(longitud):
-        a = random.choice(str(lista))
-        contraseña += a
-    
-    print(contraseña)
+    print(password)
 
 if __name__ == '__main__':
-    personalización()
-    generar_password()
+    personalization()
+    GeneratePassword()
