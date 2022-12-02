@@ -45,7 +45,11 @@ is generated. <br>
 <a href='/Scripts/PasswordValidator.py'>Code</a>
 
 <h2>Other Scripts</h2>
-<b>Rock Paper Scissors Game<b> - <a href='/Scripts/RockPaperScissors.py'>Code</a>
+<b>Rock Paper Scissors Game<b> - <a href='/Scripts/RockPaperScissors.py'>Code</a> <br><br>
+  
+<i>Training Script</i> <br>
+<b>Polyndrome Counter<b> - <a href='Scripts/Training/CountPolyndromes.py'>Code</a> <br>
+<b>My Shopping Cart<b> - <a href='/Scripts/Training/MyShoppingCart.py'>Code</a> <br>
 More exercises will be added soon
 
 <h2>Code Examples</h2>
