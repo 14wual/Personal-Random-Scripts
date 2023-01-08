@@ -1,8 +1,23 @@
+# ██╗    ██╗██╗   ██╗ █████╗ ██╗     
+# ██║    ██║██║   ██║██╔══██╗██║     
+# ██║ █╗ ██║██║   ██║███████║██║     (code by wual)
+# ██║███╗██║██║   ██║██╔══██║██║     
+# ╚███╔███╔╝╚██████╔╝██║  ██║███████╗
+#  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+# Tasks
+# See proyect >> https://github.com/14wual/Personal-Random-Scripts/tree/main/Scripts/Task
+# Follow me >> https://twitter.com/codewual
+
+# This script is still under development
+
+# --------------------Extern Imports--------------------
 import sqlite3
 import customtkinter
 import tkinter as tk
 from tkcalendar import DateEntry
 
+# --------------------APP--------------------
 def add_task(self):
     
     self.add_task_button = customtkinter.CTkButton(self.main_frame, text="Add Task",
