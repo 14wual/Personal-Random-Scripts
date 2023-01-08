@@ -1,6 +1,21 @@
+# ██╗    ██╗██╗   ██╗ █████╗ ██╗     
+# ██║    ██║██║   ██║██╔══██╗██║     
+# ██║ █╗ ██║██║   ██║███████║██║     (code by wual)
+# ██║███╗██║██║   ██║██╔══██║██║     
+# ╚███╔███╔╝╚██████╔╝██║  ██║███████╗
+#  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+# Tasks
+# See proyect >> https://github.com/14wual/Personal-Random-Scripts/tree/main/Scripts/Task
+# Follow me >> https://twitter.com/codewual
+
+# This script is still under development
+
+# --------------------Extern Imports--------------------
 import customtkinter
 import sqlite3
 
+# --------------------APP--------------------
 def tasks(self):
     
     result = []
